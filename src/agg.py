@@ -111,7 +111,7 @@ def main():
         data_df.sort_index(inplace=True)
 
         # For every window, we'll calculate each of the stats in the list
-        aggregations_window = [
+        aggregations_window = (
             "30Min",
             "1H",
             "3H",
@@ -120,27 +120,27 @@ def main():
             "1D",
             "7D",
             "15D",
-        ]
-        aggregation_function = ["mean", "max", "min", "std"]
+        )
+        aggregation_function = ("mean", "max", "min", "std")
 
         df_agg_final = pd.DataFrame()
         for window in aggregations_window:
             for function in aggregation_function:
                 df_agg = getattr(
                     data_df.groupby(
-                        ["city", "country", "weather_class"], as_index=True
+                        ("city", "country", "weather_class"), as_index=True
                     ).resample(window),
                     function,
                 )()
                 df_agg.drop(
-                    ["city", "country", "weather_class"],
+                    ("city", "country", "weather_class"),
                     axis=1,
                     errors="ignore",
                     inplace=True
                 )
                 df_agg["window_time"] = window
                 df_agg["agg"] = function
-                df_agg_final = pd.concat([df_agg_final, df_agg])
+                df_agg_final = pd.concat((df_agg_final, df_agg))
 
         # Get the dataframe ready for influx
         df_agg_final.reset_index(inplace=True)
