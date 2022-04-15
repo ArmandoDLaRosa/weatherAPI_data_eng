@@ -126,17 +126,19 @@ def main():
         df_agg_final = pd.DataFrame()
         for window in aggregations_window:
             for function in aggregation_function:
-                df_agg = getattr(
+                df_agg = (
                     data_df.groupby(
                         ("city", "country", "weather_class"), as_index=True
-                    ).resample(window),
-                    function,
-                )()
+                    )
+                    .resample(window)
+                    .aggregate(function)
+                )
+
                 df_agg.drop(
                     ("city", "country", "weather_class"),
                     axis=1,
                     errors="ignore",
-                    inplace=True
+                    inplace=True,
                 )
                 df_agg["window_time"] = window
                 df_agg["agg"] = function
