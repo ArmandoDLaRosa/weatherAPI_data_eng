@@ -7,12 +7,12 @@ into influxdata.com taking advantage
 on how influx deduplicates.
 """
 from configparser import ConfigParser
-import sys
 from datetime import datetime
 
 import pytz
 import pandas as pd
 from influxdb_client import InfluxDBClient, WriteOptions
+from pandas import Timestamp
 
 
 def logger(path: str, job_name: str, message: str, status: bool) -> None:
@@ -23,9 +23,9 @@ def logger(path: str, job_name: str, message: str, status: bool) -> None:
     status   - Input = 1, Success
              - Input = 0, Error
     """
-    current_time = datetime.now(pytz.timezone("America/Mexico_City")).strftime(
-        "%d/%m/%Y %H:%M:%S"
-    )
+    current_time = datetime.now(
+        pytz.timezone("America/Mexico_City")
+    ).isoformat()
     with open(f"{path}aggs_logs/logs.txt", "a") as file_object:
         file_object.write(
             "\n\n\nJob Name: " + job_name + "\nDate: " + current_time + "\n"
@@ -146,9 +146,8 @@ def main():
 
         # Get the dataframe ready for influx
         df_agg_final.reset_index(inplace=True)
-        df_agg_final["_time"] = df_agg_final["_time"].map(
-            lambda x: datetime.strftime(x, "%Y-%m-%dT%H:%M:%SZ")
-        )
+        df_agg_final["_time"] = pd.to_datetime(df_agg_final["_time"])
+        df_agg_final['time'] = df_agg_final['time'].dt.map(Timestamp.isoformat)
         df_agg_final.set_index("_time", inplace=True)
         logger(path, job_name, "Aggregations", True)
     except Exception as e:
