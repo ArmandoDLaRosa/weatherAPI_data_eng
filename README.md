@@ -14,11 +14,12 @@ Context: Work with a weather API to store data within certain date range in an i
 * Python
   * configparser, Helps to work with config.ini files
   * python3-virtualenv, Create python environments
-### Database
+### Database = TSDB
 * Influx DB
-### Cron Jobs
+
 ### Important Files
-* [DataRequest.py]()
+* [aggs.py](), aggregates stored data
+* [main.py](), pulls current data and appends it to influx db
 * [Python Requirements]()
 * [Variables Template]()
 * [Python Env Folder]()
@@ -41,30 +42,42 @@ Context: Work with a weather API to store data within certain date range in an i
 
 ## CRON JOB SETUP 
 ---
+1) Execute this in the cmd
+  ```
+   crontab -e 
+  ```
+2) Add the cron job like this, so it runs every 10 minutes using a python environment
+   */10 * * * * /home/user/project/env/bin/python /home/user/project/main.py 
 
-## SQLite SETUP  (Store the logs of the cron job)
----
-
-## Influx SETUP  (Store the Time Series and aggregations)
----
-
+3) Start the service
+  ```
+  sudo service cron start
+  ```
+3.2) Restart the service 
+  ```
+  sudo service cron reload
+  ```
+3.3) Start the service
+  ```
+  sudo service cron stop
+  ```
 
 ## CLOSE / RESTART / START  THE PROJECT
 ---
 ### Repository
-  * Create 1 in github
+  * Create 1 in github and a 7 days token
   * Clone it in vscode
   * Create a branch to develop
   * Create a `config.ini` file, below is just an example
     ```
-      [DATABASE]
-      NAME: dbName
-      USER: wslConnection
-      PASSWORD: ________
-      HOST: windows Ipv4
+      [API]
+      api_key: alphanumeric
+      locations: city,country/city,country/
 
-      [DJANGO]
-      SECRET_KEY = 
+      [DATABASE]
+      token = alphanumeric
+      organization = org_name
+      bucket = bucket_name
     ```
     * When needed you can read the variables like this:
         ```
@@ -75,8 +88,8 @@ Context: Work with a weather API to store data within certain date range in an i
         config_object.read("config.ini") #Path
 
         #Get the password
-        userinfo = config_object["DATABASE"]
-        print(f'{dataBaseInfo["HOST"]}')
+        api_keys = config_object["API"]
+        print(f'{api_keys["apiname_key"]}')
         ```
   * Create a git ignore file, for inspo look at this forked repo [.gitignore examples](https://github.com/ArmandoDLaRosa/gitignore)
     * `nano .gitignore`
@@ -103,6 +116,12 @@ Context: Work with a weather API to store data within certain date range in an i
 
 ## Resources Used
 ---
-[Example Link]()
+
+[OpenWeather - Current API Doc](https://openweathermap.org/current)
+
+[Requests - timeouts, retries, hooks](https://findwork.dev/blog/advanced-usage-python-requests-timeouts-retries-hooks/)
+
+[Youtube TSDB Intro](https://www.youtube.com/watch?v=OoCsY8odmpM)
+
 
 
