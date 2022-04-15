@@ -5249,3 +5249,738 @@ Success: Normalizing Data
 Job Name: openweather
 Date: 15/04/2022 13:00:07
 Success: Storing the data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:10:01
+Success: Env Variables Accesed
+
+
+Job Name: openweather
+Date: 15/04/2022 13:10:01
+Success: City: Monterrey,Mx
+
+
+Job Name: openweather
+Date: 15/04/2022 13:10:02
+Success: Connected to the API
+
+
+Job Name: openweather
+Date: 15/04/2022 13:10:02
+Success: Normalizing Data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:10:02
+Success: Storing the data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:10:02
+Success: City: Boston,Us
+
+
+Job Name: openweather
+Date: 15/04/2022 13:10:02
+Success: Connected to the API
+
+
+Job Name: openweather
+Date: 15/04/2022 13:10:02
+Success: Normalizing Data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:10:03
+Success: Storing the data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:10:03
+Success: City: Mexico City,Mx
+
+
+Job Name: openweather
+Date: 15/04/2022 13:10:03
+Success: Connected to the API
+
+
+Job Name: openweather
+Date: 15/04/2022 13:10:03
+Success: Normalizing Data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:10:04
+Success: Storing the data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:10:04
+Success: City: Saltillo,Mx
+
+
+Job Name: openweather
+Date: 15/04/2022 13:10:04
+Success: Connected to the API
+
+
+Job Name: openweather
+Date: 15/04/2022 13:10:04
+Success: Normalizing Data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:10:04
+Success: Storing the data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:10:04
+Success: City: Guadalajara,Mx
+
+
+Job Name: openweather
+Date: 15/04/2022 13:10:05
+Success: Connected to the API
+
+
+Job Name: openweather
+Date: 15/04/2022 13:10:05
+Success: Normalizing Data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:10:05
+Success: Storing the data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:20:02
+Success: Env Variables Accesed
+
+
+Job Name: openweather
+Date: 15/04/2022 13:20:02
+Success: City: Monterrey,Mx
+
+
+Job Name: openweather
+Date: 15/04/2022 13:20:02
+Success: Connected to the API
+
+
+Job Name: openweather
+Date: 15/04/2022 13:20:02
+Success: Normalizing Data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:20:03
+Success: Storing the data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:20:03
+Success: City: Boston,Us
+
+
+Job Name: openweather
+Date: 15/04/2022 13:20:03
+Success: Connected to the API
+
+
+Job Name: openweather
+Date: 15/04/2022 13:20:03
+Success: Normalizing Data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:20:03
+Success: Storing the data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:20:03
+Success: City: Mexico City,Mx
+
+
+Job Name: openweather
+Date: 15/04/2022 13:20:04
+Success: Connected to the API
+
+
+Job Name: openweather
+Date: 15/04/2022 13:20:04
+Success: Normalizing Data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:20:04
+Success: Storing the data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:20:04
+Success: City: Saltillo,Mx
+
+
+Job Name: openweather
+Date: 15/04/2022 13:20:05
+Success: Connected to the API
+
+
+Job Name: openweather
+Date: 15/04/2022 13:20:05
+Success: Normalizing Data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:20:05
+Success: Storing the data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:20:05
+Success: City: Guadalajara,Mx
+
+
+Job Name: openweather
+Date: 15/04/2022 13:20:05
+Success: Connected to the API
+
+
+Job Name: openweather
+Date: 15/04/2022 13:20:05
+Success: Normalizing Data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:20:06
+Success: Storing the data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:30:02
+Success: Env Variables Accesed
+
+
+Job Name: openweather
+Date: 15/04/2022 13:30:02
+Success: City: Monterrey,Mx
+
+
+Job Name: openweather
+Date: 15/04/2022 13:30:02
+Success: Connected to the API
+
+
+Job Name: openweather
+Date: 15/04/2022 13:30:02
+Success: Normalizing Data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:30:03
+Success: Storing the data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:30:03
+Success: City: Boston,Us
+
+
+Job Name: openweather
+Date: 15/04/2022 13:30:03
+Success: Connected to the API
+
+
+Job Name: openweather
+Date: 15/04/2022 13:30:03
+Success: Normalizing Data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:30:03
+Success: Storing the data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:30:03
+Success: City: Mexico City,Mx
+
+
+Job Name: openweather
+Date: 15/04/2022 13:30:04
+Success: Connected to the API
+
+
+Job Name: openweather
+Date: 15/04/2022 13:30:04
+Success: Normalizing Data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:30:04
+Success: Storing the data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:30:04
+Success: City: Saltillo,Mx
+
+
+Job Name: openweather
+Date: 15/04/2022 13:30:04
+Success: Connected to the API
+
+
+Job Name: openweather
+Date: 15/04/2022 13:30:04
+Success: Normalizing Data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:30:05
+Success: Storing the data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:30:05
+Success: City: Guadalajara,Mx
+
+
+Job Name: openweather
+Date: 15/04/2022 13:30:05
+Success: Connected to the API
+
+
+Job Name: openweather
+Date: 15/04/2022 13:30:05
+Success: Normalizing Data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:30:05
+Success: Storing the data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:40:01
+Success: Env Variables Accesed
+
+
+Job Name: openweather
+Date: 15/04/2022 13:40:01
+Success: City: Monterrey,Mx
+
+
+Job Name: openweather
+Date: 15/04/2022 13:40:02
+Success: Connected to the API
+
+
+Job Name: openweather
+Date: 15/04/2022 13:40:02
+Success: Normalizing Data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:40:02
+Success: Storing the data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:40:02
+Success: City: Boston,Us
+
+
+Job Name: openweather
+Date: 15/04/2022 13:40:02
+Success: Connected to the API
+
+
+Job Name: openweather
+Date: 15/04/2022 13:40:02
+Success: Normalizing Data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:40:03
+Success: Storing the data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:40:03
+Success: City: Mexico City,Mx
+
+
+Job Name: openweather
+Date: 15/04/2022 13:40:03
+Success: Connected to the API
+
+
+Job Name: openweather
+Date: 15/04/2022 13:40:03
+Success: Normalizing Data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:40:03
+Success: Storing the data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:40:03
+Success: City: Saltillo,Mx
+
+
+Job Name: openweather
+Date: 15/04/2022 13:40:04
+Success: Connected to the API
+
+
+Job Name: openweather
+Date: 15/04/2022 13:40:04
+Success: Normalizing Data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:40:04
+Success: Storing the data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:40:04
+Success: City: Guadalajara,Mx
+
+
+Job Name: openweather
+Date: 15/04/2022 13:40:05
+Success: Connected to the API
+
+
+Job Name: openweather
+Date: 15/04/2022 13:40:05
+Success: Normalizing Data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:40:05
+Success: Storing the data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:50:02
+Success: Env Variables Accesed
+
+
+Job Name: openweather
+Date: 15/04/2022 13:50:02
+Success: City: Monterrey,Mx
+
+
+Job Name: openweather
+Date: 15/04/2022 13:50:03
+Success: Connected to the API
+
+
+Job Name: openweather
+Date: 15/04/2022 13:50:03
+Success: Normalizing Data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:50:03
+Success: Storing the data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:50:03
+Success: City: Boston,Us
+
+
+Job Name: openweather
+Date: 15/04/2022 13:50:03
+Success: Connected to the API
+
+
+Job Name: openweather
+Date: 15/04/2022 13:50:03
+Success: Normalizing Data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:50:04
+Success: Storing the data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:50:04
+Success: City: Mexico City,Mx
+
+
+Job Name: openweather
+Date: 15/04/2022 13:50:04
+Success: Connected to the API
+
+
+Job Name: openweather
+Date: 15/04/2022 13:50:04
+Success: Normalizing Data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:50:04
+Success: Storing the data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:50:04
+Success: City: Saltillo,Mx
+
+
+Job Name: openweather
+Date: 15/04/2022 13:50:05
+Success: Connected to the API
+
+
+Job Name: openweather
+Date: 15/04/2022 13:50:05
+Success: Normalizing Data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:50:05
+Success: Storing the data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:50:05
+Success: City: Guadalajara,Mx
+
+
+Job Name: openweather
+Date: 15/04/2022 13:50:05
+Success: Connected to the API
+
+
+Job Name: openweather
+Date: 15/04/2022 13:50:05
+Success: Normalizing Data
+
+
+Job Name: openweather
+Date: 15/04/2022 13:50:06
+Success: Storing the data
+
+
+Job Name: openweather
+Date: 15/04/2022 14:00:01
+Success: Env Variables Accesed
+
+
+Job Name: openweather
+Date: 15/04/2022 14:00:01
+Success: City: Monterrey,Mx
+
+
+Job Name: openweather
+Date: 15/04/2022 14:00:05
+Success: Connected to the API
+
+
+Job Name: openweather
+Date: 15/04/2022 14:00:05
+Success: Normalizing Data
+
+
+Job Name: openweather
+Date: 15/04/2022 14:00:05
+Success: Storing the data
+
+
+Job Name: openweather
+Date: 15/04/2022 14:00:05
+Success: City: Boston,Us
+
+
+Job Name: openweather
+Date: 15/04/2022 14:00:07
+Success: Connected to the API
+
+
+Job Name: openweather
+Date: 15/04/2022 14:00:07
+Success: Normalizing Data
+
+
+Job Name: openweather
+Date: 15/04/2022 14:00:07
+Success: Storing the data
+
+
+Job Name: openweather
+Date: 15/04/2022 14:00:07
+Success: City: Mexico City,Mx
+
+
+Job Name: openweather
+Date: 15/04/2022 14:00:08
+Success: Connected to the API
+
+
+Job Name: openweather
+Date: 15/04/2022 14:00:08
+Success: Normalizing Data
+
+
+Job Name: openweather
+Date: 15/04/2022 14:00:08
+Success: Storing the data
+
+
+Job Name: openweather
+Date: 15/04/2022 14:00:08
+Success: City: Saltillo,Mx
+
+
+Job Name: openweather
+Date: 15/04/2022 14:00:09
+Success: Connected to the API
+
+
+Job Name: openweather
+Date: 15/04/2022 14:00:09
+Success: Normalizing Data
+
+
+Job Name: openweather
+Date: 15/04/2022 14:00:09
+Success: Storing the data
+
+
+Job Name: openweather
+Date: 15/04/2022 14:00:09
+Success: City: Guadalajara,Mx
+
+
+Job Name: openweather
+Date: 15/04/2022 14:00:10
+Success: Connected to the API
+
+
+Job Name: openweather
+Date: 15/04/2022 14:00:10
+Success: Normalizing Data
+
+
+Job Name: openweather
+Date: 15/04/2022 14:00:10
+Success: Storing the data
+
+
+Job Name: openweather
+Date: 15/04/2022 14:10:01
+Success: Env Variables Accesed
+
+
+Job Name: openweather
+Date: 15/04/2022 14:10:01
+Success: City: Monterrey,Mx
+
+
+Job Name: openweather
+Date: 15/04/2022 14:10:01
+Success: Connected to the API
+
+
+Job Name: openweather
+Date: 15/04/2022 14:10:01
+Success: Normalizing Data
+
+
+Job Name: openweather
+Date: 15/04/2022 14:10:02
+Success: Storing the data
+
+
+Job Name: openweather
+Date: 15/04/2022 14:10:02
+Success: City: Boston,Us
+
+
+Job Name: openweather
+Date: 15/04/2022 14:10:02
+Success: Connected to the API
+
+
+Job Name: openweather
+Date: 15/04/2022 14:10:02
+Success: Normalizing Data
+
+
+Job Name: openweather
+Date: 15/04/2022 14:10:03
+Success: Storing the data
+
+
+Job Name: openweather
+Date: 15/04/2022 14:10:03
+Success: City: Mexico City,Mx
+
+
+Job Name: openweather
+Date: 15/04/2022 14:10:03
+Success: Connected to the API
+
+
+Job Name: openweather
+Date: 15/04/2022 14:10:03
+Success: Normalizing Data
+
+
+Job Name: openweather
+Date: 15/04/2022 14:10:03
+Success: Storing the data
+
+
+Job Name: openweather
+Date: 15/04/2022 14:10:03
+Success: City: Saltillo,Mx
+
+
+Job Name: openweather
+Date: 15/04/2022 14:10:04
+Success: Connected to the API
+
+
+Job Name: openweather
+Date: 15/04/2022 14:10:04
+Success: Normalizing Data
+
+
+Job Name: openweather
+Date: 15/04/2022 14:10:04
+Success: Storing the data
+
+
+Job Name: openweather
+Date: 15/04/2022 14:10:04
+Success: City: Guadalajara,Mx
+
+
+Job Name: openweather
+Date: 15/04/2022 14:10:04
+Success: Connected to the API
+
+
+Job Name: openweather
+Date: 15/04/2022 14:10:04
+Success: Normalizing Data
+
+
+Job Name: openweather
+Date: 15/04/2022 14:10:05
+Success: Storing the data

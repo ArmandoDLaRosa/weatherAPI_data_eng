@@ -119,3 +119,143 @@ Success: Aggregations
 Job Name: influx agg
 Date: 15/04/2022 13:00:09
 Success: Data Stored
+
+
+Job Name: influx agg
+Date: 15/04/2022 13:10:01
+Success: Env Variables Accesed
+
+
+Job Name: influx agg
+Date: 15/04/2022 13:10:02
+Success: Data Retrieved from influx
+
+
+Job Name: influx agg
+Date: 15/04/2022 13:10:02
+Success: Aggregations
+
+
+Job Name: influx agg
+Date: 15/04/2022 13:10:08
+Success: Data Stored
+
+
+Job Name: influx agg
+Date: 15/04/2022 13:20:01
+Success: Env Variables Accesed
+
+
+Job Name: influx agg
+Date: 15/04/2022 13:20:02
+Success: Data Retrieved from influx
+
+
+Job Name: influx agg
+Date: 15/04/2022 13:20:03
+Success: Aggregations
+
+
+Job Name: influx agg
+Date: 15/04/2022 13:20:08
+Success: Data Stored
+
+
+Job Name: influx agg
+Date: 15/04/2022 13:30:02
+Success: Env Variables Accesed
+
+
+Job Name: influx agg
+Date: 15/04/2022 13:30:02
+Success: Data Retrieved from influx
+
+
+Job Name: influx agg
+Date: 15/04/2022 13:30:03
+Success: Aggregations
+
+
+Job Name: influx agg
+Date: 15/04/2022 13:30:10
+Success: Data Stored
+
+
+Job Name: influx agg
+Date: 15/04/2022 13:40:01
+Success: Env Variables Accesed
+
+
+Job Name: influx agg
+Date: 15/04/2022 13:40:02
+Success: Data Retrieved from influx
+
+
+Job Name: influx agg
+Date: 15/04/2022 13:40:02
+Success: Aggregations
+
+
+Job Name: influx agg
+Date: 15/04/2022 13:40:09
+Success: Data Stored
+
+
+Job Name: influx agg
+Date: 15/04/2022 13:50:02
+Success: Env Variables Accesed
+
+
+Job Name: influx agg
+Date: 15/04/2022 13:50:03
+Success: Data Retrieved from influx
+
+
+Job Name: influx agg
+Date: 15/04/2022 13:50:03
+Success: Aggregations
+
+
+Job Name: influx agg
+Date: 15/04/2022 13:50:09
+Success: Data Stored
+
+
+Job Name: influx agg
+Date: 15/04/2022 14:00:01
+Success: Env Variables Accesed
+
+
+Job Name: influx agg
+Date: 15/04/2022 14:00:01
+Success: Data Retrieved from influx
+
+
+Job Name: influx agg
+Date: 15/04/2022 14:00:02
+Success: Aggregations
+
+
+Job Name: influx agg
+Date: 15/04/2022 14:00:07
+Success: Data Stored
+
+
+Job Name: influx agg
+Date: 15/04/2022 14:10:01
+Success: Env Variables Accesed
+
+
+Job Name: influx agg
+Date: 15/04/2022 14:10:02
+Success: Data Retrieved from influx
+
+
+Job Name: influx agg
+Date: 15/04/2022 14:10:02
+Success: Aggregations
+
+
+Job Name: influx agg
+Date: 15/04/2022 14:10:09
+Success: Data Stored
