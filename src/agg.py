@@ -88,7 +88,7 @@ def main():
             f"Env Variables Not Accessed, exit. {str(e)}",
             False,
         )
-        sys.exit(0)
+        raise e from e
 
     # Retrieve data stored in influx
     try:
@@ -101,7 +101,7 @@ def main():
             f"Data Retrieved from influx, exit. {str(e)}",
             False,
         )
-        sys.exit(0)
+        raise e from e
 
     # Calculate Aggregations
     try:
@@ -153,7 +153,7 @@ def main():
         logger(path, job_name, "Aggregations", True)
     except Exception as e:
         logger(path, job_name, f"Aggregations, exit. {str(e)}", False)
-        sys.exit(0)
+        raise e from e
 
     # Store data in influx
     try:
@@ -188,7 +188,7 @@ def main():
         logger(path, job_name, "Data Stored", True)
     except Exception as e:
         logger(path, job_name, f"Data not Stored, exit. {str(e)}", False)
-        sys.exit(0)
+        raise e from e
 
 
 if __name__ == "__main__":
