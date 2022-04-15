@@ -52,7 +52,7 @@ Context: Work with a weather API to store data within certain date range in an i
 ## CLOSE / RESTART / START  THE PROJECT
 ---
 ### Repository
-  * Create 1 in github
+  * Create 1 in github and a 7 days token
   * Clone it in vscode
   * Create a branch to develop
   * Create a `config.ini` file, below is just an example
