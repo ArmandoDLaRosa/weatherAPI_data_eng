@@ -8,11 +8,11 @@ on how influx deduplicates.
 """
 from configparser import ConfigParser
 import sys
-import pytz
 from datetime import datetime
+
+import pytz
 import pandas as pd
 from influxdb_client import InfluxDBClient, WriteOptions
-from influxdb_client.client.write_api import SYNCHRONOUS
 
 
 def logger(path: str, job_name: str, message: str, status: bool) -> None:
@@ -83,7 +83,10 @@ def main():
         logger(path, job_name, "Env Variables Accesed", True)
     except Exception as e:
         logger(
-            path, job_name, f"Env Variables Not Accessed, exit. {str(e)}", False
+            path,
+            job_name,
+            f"Env Variables Not Accessed, exit. {str(e)}",
+            False,
         )
         sys.exit(0)
 
@@ -93,7 +96,10 @@ def main():
         logger(path, job_name, "Data Retrieved from influx", True)
     except Exception as e:
         logger(
-            path, job_name, f"Data Retrieved from influx, exit. {str(e)}", False
+            path,
+            job_name,
+            f"Data Retrieved from influx, exit. {str(e)}",
+            False,
         )
         sys.exit(0)
 
@@ -126,22 +132,22 @@ def main():
                     ).resample(window),
                     function,
                 )()
-                df_agg = df_agg.drop(
+                df_agg.drop(
                     ["city", "country", "weather_class"],
                     axis=1,
                     errors="ignore",
+                    inplace=True
                 )
-
                 df_agg["window_time"] = window
                 df_agg["agg"] = function
                 df_agg_final = pd.concat([df_agg_final, df_agg])
 
         # Get the dataframe ready for influx
-        df_agg_final = df_agg_final.reset_index()
+        df_agg_final.reset_index(inplace=True)
         df_agg_final["_time"] = df_agg_final["_time"].map(
             lambda x: datetime.strftime(x, "%Y-%m-%dT%H:%M:%SZ")
         )
-        df_agg_final = df_agg_final.set_index("_time")
+        df_agg_final.set_index("_time", inplace=True)
         logger(path, job_name, "Aggregations", True)
     except Exception as e:
         logger(path, job_name, f"Aggregations, exit. {str(e)}", False)
@@ -150,7 +156,9 @@ def main():
     # Store data in influx
     try:
         url_path = "https://us-east-1-1.aws.cloud2.influxdata.com"
-        with InfluxDBClient(url=url_path, token=my_token, org=my_org) as client:
+        with InfluxDBClient(
+            url=url_path, token=my_token, org=my_org
+        ) as client:
             with client.write_api(
                 write_options=WriteOptions(
                     batch_size=50,
