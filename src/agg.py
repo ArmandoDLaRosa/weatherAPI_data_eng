@@ -126,5 +126,16 @@ def main():
         logger(path, job_name, 'Data not Stored, exit. ' + str(e), False)
         sys.exit(0)
 
+    # Logging memory usage for future reference
+    try:
+        logger(path, job_name, f"""
+        MEMORY STORAGE:
+        mem_not_agg_data: {str(data_df.memory_usage(deep=True).sum()/1000000)} MB
+        mem__agg_data: {str(df_agg_final.memory_usage(deep=True).sum()/1000000)} MB
+        """, True)        
+    except Exception as e:
+        logger(path, job_name, 'Could not calculate memory storage, exit.' + str(e), False)
+        sys.exit(0)
+
 if __name__ == '__main__':
     main()
